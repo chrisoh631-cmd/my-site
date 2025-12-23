@@ -27,19 +27,28 @@
     .box {
       background: #f2f2f2;
       padding: 20px;
-      width: 95%;         /* Uses almost full width of mobile screens */
-      max-width: 800px;   /* Increased container width significantly */
+      width: 95%;
+      max-width: 800px;
       border-radius: 8px;
       text-align: center;
     }
 
     .gif {
-      height: 75vh;       /* ✅ Forces image to be 75% of screen height (Huge) */
-      width: auto;        
-      max-width: 100%;    
-      object-fit: contain; 
+      height: 75vh;
+      width: auto;
+      max-width: 100%;
+      object-fit: contain;
       margin: 10px auto;
       display: block;
+    }
+
+    /* BIG TEXT BELOW GIF */
+    .gif-text {
+      margin-top: 18px;
+      font-size: 28px;
+      font-weight: 700;
+      color: #111;
+      text-align: center;
     }
 
     .code {
@@ -54,11 +63,12 @@
     .btn {
       display: inline-block;
       margin-top: 15px;
-      padding: 10px 16px;
+      padding: 12px 20px;
       background: #007bff;
       color: #fff;
       text-decoration: none;
       border-radius: 4px;
+      font-size: 16px;
     }
   </style>
 </head>
@@ -70,6 +80,10 @@
 
     <img src="giff-zh.gif" alt="Loading" class="gif">
 
+    <p class="gif-text">
+      🔒 请勿外传 · Access Valid
+    </p>
+
     <div class="code">
       showfilesbot_8V_H1X7J6Q6z2L1z5b9c6a8
     </div>
@@ -79,4 +93,6 @@
     </a>
   </div>
 </body>
+</html>
+
 </html>
